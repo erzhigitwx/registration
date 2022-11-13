@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 500px 0;
+    padding: 20px 60px 40px;
+    box-shadow: 5px 10px 30px 10px black;
+}
+.title{
+    text-align: center;
+    font-family: serif;
+}
+.email{
+    height: 15px;
+    font-family: serif;
+}
+.password{
+    height: 15px;
+    font-family: serif;
+    margin-top: 10px;
+}
+.btn{
+    font-family: serif;
+    margin-top: 40px;
+    color: black;
+    font-size: 18px;
+}
+.btn-false{
+    background-color: #c4c4c4;
+}
+.btn-true{
+    background-color: greenyellow;
+}
+
+
+@media screen and (max-width : 1300px) {
+    #container{
+        margin: 100px 400px 0;
+    }
+}
+@media screen and (max-width : 1140px){
+    #container{
+        margin: 100px 300px 0;
+    }
+}
+@media screen and (max-width : 930px){
+    #container{
+        margin: 100px 200px 0;
+    }
+}
+@media screen and (max-width : 725px){
+    #container{
+        margin: 100px 100px 0;
+    }
+}
+@media screen and (max-width : 480px){
+    #container{
+        margin: 100px 50px 0;
+    }
+}
+@media screen and (max-width : 380px){
+    #container{
+        margin: 100px 25px 0;
+    }
+}
+@media screen and (max-width : 340px){
+    #container{
+        padding: 20px 30px 40px;
+    }
+    .title{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width : 230px){
+    #container{
+        padding: 20px 10px 40px;
+    }
+    .title{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width : 200px){
+    body{
+        min-width: 200px;
+    }
+}
